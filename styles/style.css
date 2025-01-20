@@ -146,32 +146,11 @@
     display: flex;
 }
 
-.hide {
-  display: none;
-}
-#hidden {
-  display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 /* header styles are here */
 header {
   max-width: 1120px;
   margin: 50px auto;
 }
-
-
-
 
 
 /* navbar styles */
@@ -246,7 +225,7 @@ nav>.nav-title>a {
 }
 
 
-/* main section styles */
+/* ------main section styles------- */
 
 
 
