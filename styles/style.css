@@ -125,7 +125,6 @@
 .inter-simple {
   font-family: "Inter", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
@@ -137,7 +136,6 @@
 .manrope-simple {
   font-family: "Manrope", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 
