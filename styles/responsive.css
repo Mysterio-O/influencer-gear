@@ -13,6 +13,9 @@
         flex-direction: column;
         gap: 10px;
     }
+    .nav-items>a:hover {
+        font-size: 1rem;
+    }
     .nav-item-container {
         gap: 10px;
         justify-content: space-evenly;
