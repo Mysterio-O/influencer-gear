@@ -7,6 +7,8 @@
     header {
         margin: 20px auto;
     }
+
+    /* navbar styles */
     .navbar {
         flex-direction: column;
         gap: 10px;
@@ -19,8 +21,31 @@
         text-align: center;
     }
 
+    /* banner styles */
+    .banner-section {
+        flex-direction: column;
+        background-position: bottom;
+    }
+    .banner-image>img {
+        width: 100%;
+    }
+    .banner-title {
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+    .banner-subtitle {
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
 
-
+    /* sponsor section style */
+    .sponsor-details {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .sponsor {
+        background-image: linear-gradient(to right, rgba(169, 169, 169, 0.29), rgba(169, 169, 169, 0.09));
+    }
 
     /* collection section is here */
 
