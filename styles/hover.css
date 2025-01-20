@@ -1,0 +1,40 @@
+/* hover effects for whole page */
+
+/* navbar */
+.nav-items>a:hover {
+    font-size: 1.5rem;
+}
+
+/* banner hover styles */
+
+.banner-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+.banner-image>img:hover {
+   zoom: 110%;
+   cursor: pointer;
+}
+.sponsor>.sponsor-details>img:hover {
+    cursor: pointer;
+}
+.collection>.card-container:hover {
+    cursor: pointer;
+}
+.see-more:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+.feature-section>.feature-image>img:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.feature-btn:hover {
+    zoom: 130%;
+    border-radius: 8px;
+    opacity: 0.75;
+    cursor: pointer;
+}
+.footer-icons>i:hover {
+    cursor: pointer;
+}
