@@ -20,11 +20,13 @@
                        <!-- simple styles -->
     <link rel="stylesheet" href="styles/style.css">
                        <!-- hover css link -->
-     <link rel="stylesheet" href="styles/hover.css">                   
+     <link rel="stylesheet" href="styles/hover.css">    
+                    <!-- responsive layout  -->
+    <link rel="stylesheet" href="styles/responsive.css">
 
 </head>
 <body>
-    <header>
+    <header class="hide">
         <!-- navbar is here -->
         <nav class="navbar display-flex poppins-bold">
             <h3 class="nav-title"><a href="">Influencer products</a></h3>
@@ -67,8 +69,8 @@
     <!-- main part starts form here -->
     <main>
         <!-- collection section starts from here -->
-        <h3 class="collection-title poppins-semibold">Popular Collection</h3>
-        <section class="collection">
+        <h3 class="collection-title poppins-semibold hide">Popular Collection</h3>
+        <section id="hidden" class="collection">
             <div class="card-container">
                 <img src="images/tripod.png" alt="">
                 <h4 class="card-name">Flex Tripod</h4>
@@ -143,7 +145,7 @@
             </div>
             
         </section>
-        <p class="see-more poppins-bold">See More <i class="fa-solid fa-arrow-right"></i></p>
+        <p class="see-more poppins-bold hide">See More <i class="fa-solid fa-arrow-right"></i></p>
 
         <!-- feature section starts from here -->
          <section class="feature-section display-flex">
@@ -159,7 +161,7 @@
     </main>
 
     <!-- footer starts from here -->
-     <footer class="footer display-flex">
+     <footer class="footer display-flex hide">
         <div class="footer-items">
             <div class="footer-description">
                 <h4 class="footer-title poppins-bold">Influencer products</h4>

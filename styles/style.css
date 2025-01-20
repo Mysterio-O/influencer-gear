@@ -146,6 +146,12 @@
     display: flex;
 }
 
+.hide {
+  display: none;
+}
+#hidden {
+  display: none;
+}
 
 
 
